@@ -16,8 +16,11 @@ I found that the included cables were not long enough for the X axis so I had to
 Key differences between the suggested switches and the controller board.
 
 - Switch: 5v - Grnd - Signal
+
   ![switch](switch.jpg)
+
 - PHECDA: Signal - Grnd - 5v
+
   ![main board](mainboard.png)
 
 The initial directions suggested moving the wire and only using 2 wires.  This will break the LED functionality.  Instead I just swapped the order of the wires and later configured LightBurn to accept that the switches were inverted.  Instead of signal to ground I believe that means it is signal to 5v.  Or instead of NO to CLOSED I opted for NC to OPEN.
