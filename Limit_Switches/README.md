@@ -24,3 +24,10 @@ Key differences between the suggested switches and the controller board.
   ![main board](mainboard.png)
 
 The initial directions suggested moving the wire and only using 2 wires.  This will break the LED functionality.  Instead I just swapped the order of the wires and later configured LightBurn to accept that the switches were inverted.  Instead of signal to ground I believe that means it is signal to 5v.  Or instead of NO to CLOSED I opted for NC to OPEN.
+
+## Config Settings to Remember
+
+- Hard Limits = TRUE
+- Homing Cycle = TRUE
+- Y Homing Direction Invert = TRUE
+- Limit Pins Invert = ?
