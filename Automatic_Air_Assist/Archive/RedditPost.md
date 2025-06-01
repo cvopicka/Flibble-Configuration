@@ -19,3 +19,7 @@ If you did everything correct, your board should have a green light and you shou
 If you bought the Air assist pump from Elegoo you would have to wire in the high voltage to the board (NO,C) so do so at your own risk otherwise you can buy a low voltage pump or use an air solenoid if you have an air compressor. I am going to use one of these https://www.amazon.com/Piggyback-Switch-Humidistat-Heater-Control/dp/B07CMP9F95/ref=sr_1_3 with the Elegoo pump and then run the pigtail into a plastic box with the relay board.
 
 Edit: Got all my parts in so now have a permanent setup 😁
+
+![Wiring Diagram](./Assets/automatic-air-assist-v0-dn6ccur0w0ub1.webp)
+
+Here's a simple wiring diagram. If you're using the same power supply pigtail make sure you use brown & green to the relay board.
